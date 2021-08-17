@@ -8,5 +8,6 @@ async def set_default_commands():
         [
             types.BotCommand("start", "Start bot"),
             types.BotCommand("help", "Show help"),
+            types.BotCommand("inline", "Inline buttons"),
         ]
     )
